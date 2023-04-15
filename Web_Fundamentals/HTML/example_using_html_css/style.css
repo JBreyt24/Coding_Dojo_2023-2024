@@ -1,0 +1,26 @@
+/* body {
+    background-color: black;
+} */
+
+h1 {
+    background-color: rebeccapurple ;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.green {
+    background-color: mediumseagreen;
+}
+#red{
+    background-color: tomato;
+}
+
+/* can use !important to specify something and put it above everything else */
+
+p {
+    text-align: center;
+}
+
+* {
+    outline: 1px solid red;
+}
