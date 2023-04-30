@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 1000px;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    list-style-type: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    border: none;
+    font-size: 16px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    box-shadow: 5px 5px #000000;
+}
+/* Had to review the video to get my bar looking correctly; was confused about why my links kept having the dots for a list
+and the underline; on top of that my entire bar was whited out except for the color around "Profile".  I need to study back
+over my options when it comes to text and font decoration*/
