@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Nav-bar */
+
+
+.top {
+    background-color: #333333;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    color: #ffffff;
+    width: 1080px;
+    margin: 0 auto;
+    /* width: 1000px; Taken out to extend across top of page */
+    /* background-color: #333333; taken out and added to .top element*/
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    list-style-type: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    border: none;
+    font-size: 16px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    box-shadow: 5px 5px #000000;
+}
+
+
+/* Columns */
+
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col, .col-2{
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+
+/* User-Card */
+
+
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card, .card {
+    width: 100%;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.card-header {
+    height: 125px;
+    margin-bottom: 70px;
+    background-color: #17a2b8;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #fff;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+
+
+/* Connection-requests */
+
+
+.header {
+    background-color: #333333;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    align-items: center;
+}
+
+.avatar-s {
+    border-radius: 50%;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.user-line {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.start, .end {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.date {
+    font-size: 20px;
+    color: grey;
+}
+
+.connections {
+    background-color: lightgrey;
+    color: #333;
+    border-radius: 12px;
+    height: 24px;
+    padding: 0 10px;
+    margin-right: 10px;
+    font-size: 20x;
+}
+
+
+/* View More Box */
+
+
+.footer {
+    padding: 20px;
+    border-top: 2px solid #999; 
+}
