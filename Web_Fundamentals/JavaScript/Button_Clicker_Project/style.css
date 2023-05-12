@@ -1,0 +1,211 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: white;
+   font-family: Roboto, sans-serif;
+}
+
+a {
+   color: blue;
+}
+
+.container {
+   width: 1000px;
+   margin: 0 auto;
+}
+
+.nav-bar {
+   display: flex;
+   height: 60px;
+   padding: 20px;
+   justify-content: space-between;
+   align-items: center;
+   color: black;
+   background-color: lightgrey;
+}
+
+.title {
+   font-size: 50px;
+}
+
+.search-bar {
+   flex: 1;
+   padding: 8px;
+   margin: 0px 80px;
+}
+
+.login-button {
+   box-shadow: 5px 5px black;
+   width: 80px;
+   height: 35px;
+   background-color: blue;
+   color: white;
+   font-size: 20px;
+}
+
+/* Left Column */
+
+.row {
+   display: flex;
+}
+
+.left-col {
+   flex: 2;
+}
+
+.def-box {
+   display: flex;
+   margin-top: 30px;
+   padding: 30px;
+   border: 2px solid darkgrey;
+}
+
+.definition {
+   flex: 3;
+   margin-left: 20px;
+   font-size: 25px;
+   margin-top: 50px;
+}
+
+.left-side {
+   flex: 1;
+   text-align: center;
+}
+
+
+.like-btn {
+   box-shadow: 5px 5px black;
+   width: 80px;
+   height: 35px;
+   background-color: gold;
+   color: black;
+   font-size: 20px;
+}
+
+p {
+   font-size: 18px;
+   margin: 10px;
+}
+
+h1 {
+   font-size: 35px;
+}
+
+h2 {
+   font-size: 28px;
+   margin-bottom: 10px;
+}
+
+
+
+/* Right Column */
+
+.right-col {
+   flex: 1;
+   margin-left: 30px;
+}
+
+.right-box {
+   border: 2px solid darkgrey;
+   margin-top: 30px;
+   padding: 20px;
+}
+
+.add-def-btn {
+   box-shadow: 5px 5px black;
+   width: 100%;
+   height: 35px;
+   background-color: lightgreen;
+   color: black;
+   font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
