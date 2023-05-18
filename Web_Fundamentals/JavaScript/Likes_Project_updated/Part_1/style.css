@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 350px;
+    margin: 20px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.top {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.like-btn {
+    padding: 5px;
+    border: 2px black;
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+    box-shadow: 3px 3px black;
+}
+
+#amt-liked {
+    margin-right: 20px;
+}
