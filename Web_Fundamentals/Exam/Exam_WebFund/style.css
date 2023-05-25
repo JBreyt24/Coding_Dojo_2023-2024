@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.top-accent {
+    height: 10px;
+    background-color: rebeccapurple;
+}
+
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    list-style-type: none;
+}
+
+.nav-title {
+    margin-left: 100px;
+}
+
+.currency-btn {
+    height: 35px;
+    width: 100px;
+    border: none;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+#cart-amt {
+    text-decoration: underline;
+}
+
+h3 {
+    margin-left: 100px;
+    padding: 30px;
+}
+
+li {
+    justify-content: space-around;
+}
+
+.highlight-box {
+    height: 288px;
+    width: 808px;
+    
+}
+
+.row-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.row-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.row-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-box {
+    height: 150px;
+    width: 310px;
+    background-color: white;
+    margin: 10px;
+    margin-top: 70px;
+}
+
+.game-descriptions {
+    width: 310px;
+    background-color: white;
+    margin: 10px;
+}
+
+.game1 {
+    width: 400px;
+}
+.game2 {
+    width: 400px;
+}
+.game3 {
+    width: 400px;
+}
+
+#windows, #apple, #linux {
+    height: 30px;
+    width: 30px;
+}
+
+.price-details {
+    display: flex;
+    justify-content: space-around;
+    width: 318px;
+    margin: 0px 10px;
+}
+
+.discount-new {
+    padding: 3.5px;
+    background-color: rebeccapurple;
+    border: 1px solid rebeccapurple;
+    color: white;
+    width: 42px;
+}
+
+.buy-btn {
+    padding: 3.5px;
+    border: 1px solid rgb(18, 192, 18);
+    background-color: rgb(18, 192, 18);
+    color: white;
+    width: 42px;
+}
+
+.cost {
+    padding: 4px;
+}
+
+#cafe-neko, #pixel-ninjas, #stonepunk {
+    height: 150px;
+    width: 310px;
+}
+
+.mySlides {
+    height: 288px;
+    width: 808px;
+}
+
+.slideshow {
+    height: 288px;
+    width: 808px;
+}
+
+.display-left {
+    background-color: rebeccapurple;
+    color: white;
+    width: 50px;
+    padding: 5px;
+    margin-left: 350px;
+}
+.display-right {
+    background-color: rebeccapurple;
+    color: white;
+    width: 50px;
+    padding: 5px;
+}
