@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .wrapper{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center
+        }
+        .box {
+            width: 200px;
+            height: 200px;
+            border:  solid black;
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class = "wrapper">
+        {% for i in range (0,num) %}
+        <div class = "box" style = "background-color: {{color}};"></div>
+        {% endfor %}
+    </div>
+</body>
+</html>
