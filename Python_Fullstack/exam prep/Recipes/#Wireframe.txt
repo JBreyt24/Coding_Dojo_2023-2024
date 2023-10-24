@@ -1,0 +1,25 @@
+# Wireframe
+
+- Diagram user actions
+- ERD / DB set up
+
+# Clickable Prototype
+
+- Folder set up
+- Hard-code Templates ( + hyperlinks )
+- Set up empty routes ( And test)
+	1. "/recipes" - dashboard
+	2. "/recipes/new" - new page
+	3. "/recipes/show" - one recipe detail
+	4. "/recipes/edit - edit page
+	5. "/recipes/delete" - delete
+	6. "/logout"
+	7. "/recipes" - POST
+	8. "/recipes/update"
+
+# Features
+
+- Seed Database
+- GET Render Routes
+- GET Action Routes
+- POST Routes
