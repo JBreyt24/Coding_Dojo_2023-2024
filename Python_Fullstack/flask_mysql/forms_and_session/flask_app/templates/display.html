@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Houston we have one User! </h1>
+    <table>
+        <thead>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Age</th>
+            <th>Added On:</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{user.first_name}} {{user.last_name}}</td>
+                <td>{{user.email}}</td>
+                <td>{{user.age}}</td>
+                <td>{{user.created_at}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form action="/users/update/{{user.id}}", method = "post">
+        <label for="first_name">First Name:</label>
+        <input type="text" name="first_name" value="{{user.first_name}}"/>
+        <label for="last_name">Last Name:</label>
+        <input type="text" name="last_name" value="{{user.last_name}}"/>
+        <label for="email">Email:</label>
+        <input type="email" name="email" value="{{user.email}}"/>
+        <button>Submit Form</button>
+    </form>
+    <h3>{{user.first_name}}'s Posts</h3>
+    {% for post in user.posts %}
+        {% if post.post_content %}
+        <p><span style="font-weight: bold;">{{post.post_content}}</span> ON 
+        {{post.created_at}}</p>
+        {% else %}
+        <p>No Posts</p>
+        {% endif %}
+    {% endfor %}
+</body>
+</html>
