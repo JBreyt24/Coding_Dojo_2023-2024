@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+        <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Houston we have liftoff! </h1>
+        <h3>Create a User</h3>
+        <form action="/users" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name = "name"/>
+            <label for="email">Email:</label>
+            <input type="email" name = "email"/>
+            <label for="password">Password:</label>
+            <input type="password" name = "password"/>
+            <label for="age">Age:</label>
+            <input type="number" name = "age"/>
+            <!-- <input type="submit" value="create user"/> -->
+            <button>Submit Form</button>
+        </form>
+    </body>
+</html>
+
+<!-- Format for adding images -->
+<!-- <img src="{{ url_for('static', filename='images/img.png') }}"> -->
